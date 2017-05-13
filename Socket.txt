@@ -1,0 +1,14 @@
+﻿Socket(UDP)
+发送方：
+       1.建立DatagramSockte服务；
+	   2.准备数据，创建字节数组，将数据封装带字节数组中；
+	   3.创建DatagramPacket数据包，将字节数组封装到数据包中，同时指定IP和端口；
+	   4.利用DatagramSocket的send()方法将数据包发送出去；
+	   5.关闭DatagramSocket服务。
+接收方：
+       1.建立DatagramSocket服务，并指定端口；
+	   2.创建字节数组和DatagramPacket数据包，将字节数组封装到数据包中；
+	   3.利用DatagramSocket的receive()方法，将数据封装到定义好的数据包中；
+	   4.利用DatagramPacket的getXXX方法获得数据的详细信息；
+	   5.关闭DatagramSocket服务。
+	   
