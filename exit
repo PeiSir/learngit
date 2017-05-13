@@ -1,0 +1,30 @@
+[1mdiff --git a/Socket.txt b/Socket.txt[m
+[1mdeleted file mode 100644[m
+[1mindex e3ed91c..0000000[m
+[1m--- a/Socket.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,14 +0,0 @@[m
+[31m-﻿Socket(UDP)[m
+[31m-发送方：[m
+[31m-       1.建立DatagramSockte服务；[m
+[31m-	   2.准备数据，创建字节数组，将数据封装带字节数组中；[m
+[31m-	   3.创建DatagramPacket数据包，将字节数组封装到数据包中，同时指定IP和端口；[m
+[31m-	   4.利用DatagramSocket的send()方法将数据包发送出去；[m
+[31m-	   5.关闭DatagramSocket服务。[m
+[31m-接收方：[m
+[31m-       1.建立DatagramSocket服务，并指定端口；[m
+[31m-	   2.创建字节数组和DatagramPacket数据包，将字节数组封装到数据包中；[m
+[31m-	   3.利用DatagramSocket的receive()方法，将数据封装到定义好的数据包中；[m
+[31m-	   4.利用DatagramPacket的getXXX方法获得数据的详细信息；[m
+[31m-	   5.关闭DatagramSocket服务。[m
+[31m-	   [m
+\ No newline at end of file[m
+[1mdiff --git a/readme.txt b/readme.txt[m
+[1mindex d8036c1..013b5bc 100644[m
+[1m--- a/readme.txt[m
+[1m+++ b/readme.txt[m
+[36m@@ -1,2 +1,2 @@[m
+[31m-Git is a version control system.[m
+[32m+[m[32mGit is a distributed version control system.[m
+ Git is free software.[m
+\ No newline at end of file[m
